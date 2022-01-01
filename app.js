@@ -6,10 +6,10 @@ const mongoose = require('mongoose');
 const defaultconfig = {
   "autoUpdate": true,
   "token": "",
-  "prefix": "!",
-  "Admin": "",
+  "prefix": "c!",
+  "Admin": "875768640320962650",
   "osuAPI": {
-    "client_id": "",
+    "client_id": "925097208053903502",
     "client_secret": "",
     "typeof client_id": "number",
     "typeof client_secret": "string"
@@ -55,12 +55,13 @@ const main = async () => {
       console.log('\x1b[33m%s\x1b[0m', `Logged in as ${client.user.tag}!`);
       setInterval(() => {
         const statuses = [
-          `github.com/hellsnakes/hellsnakebot`,
+          `CLOMEL INC | TUMULL INC`,
+
           `with ${client.guilds.cache.size} servers`,
           `with ${client.channels.cache.size} channels`,
           `with ${client.users.cache.size} users`,
-          `HELLSNAKEBOT| ${config.prefix}help`,
-          `osu!`,
+          `CLOMEL BOT| ${config.prefix}help`,
+          `A GAME.`,
         ]
 
         const status = statuses[Math.floor(Math.random() * statuses.length)]
