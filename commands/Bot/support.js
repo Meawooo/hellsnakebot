@@ -7,25 +7,25 @@ module.exports = {
     description: "support for bot",
     timeout: 5000,
     usage: "[command]",
-    author: "[CuSO4-c3c,Hiyoriii,Hellsnakes]",
+    author: "[ARAAN SHEIKH]",
     run: async (client, message, args) => {
        const embed = new Discord.MessageEmbed()
         .setTitle("Support")
         .setThumbnail(client.user.displayAvatarURL())
-        .addField(`📩Email`,`hellsnakess@hotmail.com`)
+        .addField(`📩Email`,`araansheikh@gmail.com`)
         .setColor("RANDOM")
         const button = new disbut.MessageButton()
   .setStyle('url')
-  .setURL('https://discords.com/bio/p/hellsnake') 
+  .setURL('https://discords.com/bots/user/875768640320962650/') 
   .setLabel('Discord') 
   const button2 = new disbut.MessageButton()
   .setStyle('url')
-  .setURL('https://facebook.com/hellsnake98') 
-  .setLabel('Facebook') 
+  .setURL('https://instagram.com/araan_sheikh') 
+  .setLabel('INSTAGRAM') 
   const button3 = new disbut.MessageButton()
   .setStyle('url')
-  .setURL('https://github.com/HELLSNAKES/hellsnake-bot') 
-  .setLabel('Github') 
+  .setURL('https://twitter.com/araan_sheikh') 
+  .setLabel('Twitter') 
   let row = new disbut.MessageActionRow()
         .addComponent(button)
         .addComponent(button2)
