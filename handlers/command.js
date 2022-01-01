@@ -24,7 +24,7 @@ module.exports = (client) => {
         }
     });
     console.log('\x1b[36m%s\x1b[0m',table.toString());
-    console.log('\x1b[34m%s\x1b[0m',"Welcome to HELLSNAKE-BOT|https://github.com/hellsnakes")
+    console.log('\x1b[34m%s\x1b[0m',"Welcome to CLOMEL-BOT | TUMULL INC")
 	console.log('\x1b[34m%s\x1b[0m',"Logging into Bot User...");
 
 }
